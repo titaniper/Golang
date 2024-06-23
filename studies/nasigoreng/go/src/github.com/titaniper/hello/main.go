@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	hello "github.com/titaniper/hello/src" // myproject는 모듈 이름입니다
+	"github.com/titaniper/hello/src/day1"
 )
 
 func main() {
 	fmt.Println("Hello, World!")
 
-	hello.Iterator()
+	day1.Iterator()
 
-	doMap := &hello.DoMap{}
+	doMap := &day1.DoMap{}
 	doMap.Run()
 }
