@@ -25,6 +25,7 @@ func doDay1() {
 func doDay2() {
 	fmt.Println("Hello, World!")
 
-	day2.Channel()
+	//day2.Channel()
+	day2.GoroutineTest1()
 	//day2.Goroutine()
 }

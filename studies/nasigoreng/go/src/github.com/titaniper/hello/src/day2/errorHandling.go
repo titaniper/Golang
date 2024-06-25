@@ -46,6 +46,10 @@ type MyError struct {
 	What string
 }
 
+func Test() *string {
+	return nil
+}
+
 func (e *MyError) Error() string {
 	return fmt.Sprintf("at %s, %s", e.When, e.What)
 }

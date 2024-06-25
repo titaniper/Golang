@@ -18,6 +18,10 @@ type Person struct {
 	Address // 익명 필드
 }
 
+func (p *Person) IncreaseAge() {
+	p.Age = 1
+}
+
 func Struct() {
 	// 구조체 인스턴스 생성
 	p := Person{Name: "Alice", Age: 30}
@@ -25,4 +29,17 @@ func Struct() {
 	// 구조체 필드 접근
 	fmt.Println("Name:", p.Name)
 	fmt.Println("Age:", p.Age)
+}
+
+func Struct2() {
+	p := &Person{Name: "Eve", Age: 29}
+	p2 := new(Person)
+	fmt.Println(p)  // &{Eve 30}
+	fmt.Println(p2) // &{Eve 30}
+}
+
+func Struct3() {
+	p := Person{Name: "Eve", Age: 29}
+	p.IncreaseAge()
+	fmt.Println(p.Age)
 }

@@ -9,6 +9,10 @@ import (
 	"fmt"
 )
 
+func New() {
+
+}
+
 func TypeAssertion() {
 	var i interface{} = "Hello, Go!"
 

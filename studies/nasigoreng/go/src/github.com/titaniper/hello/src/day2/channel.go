@@ -11,6 +11,7 @@ import (
 */
 
 func Channel() {
+	//test := make(string)
 	// 채널 생성
 	messages := make(chan string)
 
