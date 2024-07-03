@@ -1,0 +1,3 @@
+[submodule "golang"]
+	path = golang
+	url = git@github.com:titaniper/golang.git
