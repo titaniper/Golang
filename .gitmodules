@@ -1,0 +1,3 @@
+[submodule "gopang"]
+	path = gopang
+	url = git@github.com:titaniper/gopang.git
