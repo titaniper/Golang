@@ -25,3 +25,6 @@ func Load() {
 // brew install jmeter
 // jmeter --version
 // JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-22.jdk/Contents/Home/ exec /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/jmeter
+// alias rjm="JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-22.jdk/Contents/Home/ exec /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/jmeter"
+
+// https://velog.io/@zinna_1109/JMeter-Jmeter-Http-Request-%EC%9A%94%EC%B2%AD-%EB%B0%A9%EB%B2%95-%EC%84%B1%EB%8A%A5-%ED%85%8C%EC%8A%A4%ED%8A%B8
