@@ -17,3 +17,11 @@ package day3
 func Load() {
 
 }
+
+// https://github.com/apache/jmeter/issues/6083
+
+// brew list --cask | grep corretto
+// brew update
+// brew install jmeter
+// jmeter --version
+// JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-22.jdk/Contents/Home/ exec /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/jmeter
