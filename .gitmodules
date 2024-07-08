@@ -1,3 +1,6 @@
 [submodule "gopang"]
 	path = gopang
 	url = git@github.com:titaniper/gopang.git
+[submodule "dev_cherry"]
+	path = dev_cherry
+	url = git@github.com:goluter/dev_cherry.git
