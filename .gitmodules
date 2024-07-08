@@ -4,3 +4,9 @@
 [submodule "dev_cherry"]
 	path = dev_cherry
 	url = git@github.com:goluter/dev_cherry.git
+[submodule "resizer"]
+	path = resizer
+	url = git@github.com:goluter/resizer.git
+[submodule "gocloud-backend"]
+	path = gocloud-backend
+	url = git@github.com:Tover-Team/gocloud-backend.git
